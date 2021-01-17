@@ -1,18 +1,17 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+    <h1>Home View</h1>
+    <p>Mortems credere!Rumor ortums, tanquam placidus accentor.Consilium fidelis species est.Eheu, castus devirginato!</p>
+    <p>Castus, flavum victrixs recte quaestio de teres, mirabilis luba.Coordinataes crescere!Guttus trabems, tanquam varius fortis.Eheu, urbs!</p>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import HelloWorld from "@/components/HelloWorld.vue"; // @ is an alias to /src
 
 export default defineComponent({
   name: "Home",
   components: {
-    HelloWorld
   }
 });
 </script>
